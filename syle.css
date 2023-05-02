@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #141519;
+  color: aliceblue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: overpass;
+}
+.block1 {
+  width: 20rem;
+  height: 21rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.star img {
+  background-color: hsl(213, 19%, 18%);
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+}
+.rating button {
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(213, 19%, 18%);
+  cursor: pointer;
+  border-radius: 3rem;
+  color: hsl(217, 12%, 63%);
+  border: none;
+}
+.rating button:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+.rating button:focus {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+.block1 .submit {
+  line-height: 2rem;
+  border-radius: 2rem;
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+}
+
+.block1 .submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+.block2 {
+  visibility: hidden;
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.block2 img {
+  width: 50%;
+  align-self: center;
+}
+.block2 h2 {
+  background-color: hsl(213, 19%, 18%);
+  padding: 0.6rem 1rem;
+  border-radius: 3rem;
+  font-size: 0.9rem;
+  color: hsl(25, 97%, 53%);
+}
+.block2 h3 {
+  font-size: 1.5rem;
+}
+.block2 p {
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+}
